@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urban Brew Café</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<header id="navbar">
+  <h1>Urban Brew</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Menu</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section id="home" class="hero">
+  <div class="glass">
+    <h2>Experience Coffee Like Never Before ☕</h2>
+    <p>Premium taste • Cozy vibes • Fast service</p>
+    <button onclick="scrollToSection('services')">Explore Menu</button>
+  </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="reveal">
+  <h2>Our Specialties</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Signature Coffee</h3>
+      <p>Freshly brewed premium beans</p>
+    </div>
+    <div class="card">
+      <h3>Quick Bites</h3>
+      <p>Burgers, wraps & snacks</p>
+    </div>
+    <div class="card">
+      <h3>Desserts</h3>
+      <p>Delicious cakes & brownies</p>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="reveal dark">
+  <h2>Why Choose Us?</h2>
+  <p>
+    We combine quality ingredients with a relaxing environment.
+    Perfect place to work, chill, or meet friends.
+  </p>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="reveal">
+  <h2>Get in Touch</h2>
+  <form onsubmit="handleSubmit(event)">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 Urban Brew Café</p>
+</footer>
+
+<script src="script1 (1).js"></script>
+</body>
+</html>
